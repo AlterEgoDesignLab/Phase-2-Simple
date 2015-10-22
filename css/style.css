@@ -1,0 +1,445 @@
+*{
+	box-sizing: border-box;
+}
+
+.container {
+	position: fixed;
+	margin-bottom: 100px;
+	background-color: white;
+	width: 100%;
+	height: 70px;
+	top: 0;
+	margin-bottom: 10px;
+}
+
+
+
+
+.logo {
+	position: fixed;
+	margin-left: 25%;
+}
+
+
+
+
+.navmenu ul li {
+	font-family: 'Titillium Web', sans-serif;
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+.navmenu ul li a {
+	color: #999;
+	text-decoration: none;
+
+}
+
+
+.navmenu {
+	float: right;
+	margin-right: 100px;
+}
+
+
+
+
+
+a:link{
+	text-decoration: none;
+	color: #bebebe;
+}
+
+
+
+
+
+
+.hero{
+	background: #7d797c url(../img/background.jpg) center center no-repeat;
+	background-size: cover;
+	height: 1080px;
+	width: 100%;
+	margin-top: 0;
+}
+
+
+
+
+
+
+h1.title {
+	font-family: 'Teko', sans-serif;
+	position: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	text-align: center;
+	font-size: 100pt;
+	font-weight: lighter;
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 20%;
+	padding-left: 15%;
+	color: #fff;
+}
+
+
+
+
+
+p.subtitle {
+	font-family: 'Titillium Web', sans-serif;
+	color: #dddcdd;
+	font-size: 20pt;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 5%;
+	padding-left: 20%;
+	width: 47%;
+}
+
+
+
+
+
+
+.hero a {
+	font-family: Teko, sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 3px;
+	background: white;
+	color: black;
+	display: inline-block;
+	padding: 15px 45px;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 230px;
+	margin-left: 900px;
+}
+
+
+
+
+
+
+
+.projects {
+	font-family: 'Teko', sans-serif;
+	color: #000;
+	font-size: 40pt;
+	margin-top: 3%;
+	margin-left: 45%;
+	margin-bottom: 2%;
+}
+
+
+
+
+
+
+article {
+	float: left;
+	margin-left: 20px;
+	width: 48%;
+	text-align: center;
+}
+
+
+
+
+
+
+article figure {
+	position: relative;
+	overflow: hidden;
+}
+
+
+
+
+
+
+ section article figure img {
+	width: 100%;
+}
+
+
+
+
+
+
+article figcaption {
+	font-family: Teko, sans-serif;
+	background: #f63c3c;
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+article figcaption h4 {
+	line-height: 30px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+article figcaption time {
+	display: block;
+}
+
+
+
+
+
+article figcaption p {
+	font-size: 15px;
+	color: #fff;
+}
+
+
+
+
+article h3 {
+	font-family: Teko, sans-serif;
+	font-weight: lighter;
+	font-size: 30pt;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin: 15px;
+}
+
+
+
+
+
+article p {
+	width: 75%;
+	font-size: 16px;
+	color: #8e8e8e;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+
+
+
+.showmoreproj {
+	text-align: center;
+	text-transform: uppercase;
+	color: #f63c3c
+	text-decoration: underline;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+
+
+
+.touche {
+	background: #f63c3c;
+	text-align: center;
+	padding-top: 75px;
+}
+
+
+
+
+
+.touche h2 {
+	font-family: Teko, sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: white;
+	margin-bottom: 5px;
+}
+
+
+
+
+
+.touche p {
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	color: #fcd2d2;
+	margin-bottom: 15px;
+}
+
+
+
+
+
+.touche a {
+	display: inline-block;
+	background: #fff;
+	font-family: Teko, sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+	letter-spacing: 2px;
+	padding: 15px 80px;
+	margin-top: 20px;
+	margin-bottom: 55px;
+}
+
+
+
+
+
+.stayconnected {
+	background: #fa;
+	margin-left: 15%;
+	margin-bottom: 25px;
+	padding-top: 65px;
+}
+
+
+
+
+
+.stayconnected h2 {
+	font-family: Teko, sans-serif;
+	font-weight: 300;
+	font-size: 33px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	margin-left: 22px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+.stayconnected p {
+	font-family: 'Titillium Web', sans-serif;
+	margin-left: 22px;
+	color: #646464;
+	margin-bottom: 50px;
+}
+
+
+
+
+/*I can't figure out why my social icons and the name are stuck on the same line */
+.social li{
+	text-align: center;
+	display: inline-block;
+	background: #30282a;
+	width: 300px;
+	margin: 0 10px;
+	margin-top: 10px;	
+	margin-bottom: 80px;
+}
+
+
+
+
+
+.social li a {
+	font-family: Teko, sans-serif;
+	display: inline-block;
+ 	font-weight: lighter;
+ 	font-size: 28px;
+ 	text-transform: uppercase;
+ 	margin: 75px 0;
+}
+
+
+
+
+.socialcenter {
+	margin: 0 auto;
+}
+
+
+
+
+.fa {
+ 	display: block;
+ 	font-size: 30px;
+ }
+
+
+
+
+ .fa, a {
+ 	text-decoration: none;
+ 	color: #fff;
+ }
+
+
+
+
+ footer {
+ 	margin: 0 auto;
+ 	font-size: 12px;
+ 	color: #dadada;
+ 	margin-bottom: 40px;
+ 	margin-left: 270px;
+ }
+
+
+
+/* Hovers */
+
+
+ article figure:hover figcaption {
+	display: initial;
+}
+
+
+
+header li:hover {
+	padding-bottom: 5px;
+	border-bottom: 4px solid;
+	color: #f63c3c;
+}
+
+
+
+.projects .showmoreproj a:hover {
+	color: #f63c3c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
